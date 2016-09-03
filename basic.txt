@@ -1,0 +1,12 @@
+List can be defined:
+[1..20]
+
+Some list functions:
+- head [1..20]
+- tail [1..20]
+
+Predicate
+[x | x <- [1..5], x*2 >= 5]
+
+Types
+:t to get type of something

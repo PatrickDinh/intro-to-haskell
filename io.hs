@@ -1,4 +1,8 @@
+greeting :: String -> String
+greeting name = "Hey " ++ name ++ ", you rock!" 
+
 main = do  
     putStrLn "Hello, what's your name?"  
     name <- getLine  
-    putStrLn ("Hey " ++ name ++ ", you rock!")  
+    let greetingMessage = greeting name
+    putStrLn (greetingMessage)
